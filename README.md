@@ -49,19 +49,24 @@ In the menu bar click on **File->Cells Library** (or just Ctrl+L). In the new wi
  
 *You can now visualise the netlists of the different circuits.*
 
+
 ![loading OR gate](images/load.png "load")
+
 
 Use the arrows to move in the viewport.
  
 You can view the different instances that compose your circuit by clicking on  **File->Instances** 
+
  ![instances of OR gate](images/instances.png "Instances")
 
 In the main function we did not load all xml files. You can load the one you want by You by clicking on  **File->Open**  then typing `halfadder` in the box dialog. This will
 You can now load another circuit like `fulladder`.
 Note that you have to load the halfadder before the fulladder because the former is an instance of the latter.
+
 ![opening of Half Adder circuit](images/open.png "Open Half Adder")
 
 You can also save the data structure of the circuit you opened in an new xml file by clicking on  **File->Save**  then typing the name you want. This is particularly helpful if you build your circuit in the main function and want to store it in a file.
+
 ![Saving the Full Adder circuit](images/save.png "Save Full Adder")
 
  
